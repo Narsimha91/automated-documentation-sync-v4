@@ -7,4 +7,8 @@ The synchronizer updates only the generated section and rejects malformed marker
 ## Features List
 <!-- docs-sync: start --> 
 # features
+- Maintains an ordered Python source for README features
+- Validates README markers before changing generated content
+- Preserves README content outside generated feature bullets
+- Skips writes when generated content is unchanged
 <!-- docs-sync: end -->
